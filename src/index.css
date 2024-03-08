@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.color-picker-container
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 1.5rem 1rem;
+}
+.color-picker-container h2{
+    font-size: 3rem;
+}
+.color-display
+{
+    width: 200px;
+    height: 200px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease-in;
+}
+.color-display p{
+    text-align: center;
+    font-size: 2rem;
+    color:hsl(0, 0%, 20%);
+}
+label{
+    margin: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+input[type="color"]
+{
+    width: 10rem;
+    height: 5rem;
+    border-radius: 10px;
+}
